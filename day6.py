@@ -43,7 +43,7 @@ def Part2():
                 else:
                     visited[(x,y)] = max(0, visited[(x,y)]-1)
     
-    print "Total brightness of lights are : ", sum([visited[k] for k in visited])
+    print "Total brightness of lights is : ", sum([visited[k] for k in visited])
 
 Part1()
 Part2()
